@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react';
 import { AnimatedBackground } from './components/AnimatedBackground';
 import { AuthForm } from './components/AuthForm';
 import { UserGallery } from './components/UserGallery';
