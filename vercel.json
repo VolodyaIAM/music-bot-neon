@@ -22,7 +22,6 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "functions": {},
   "rewrites": [
     {
       "source": "/(.*)",
