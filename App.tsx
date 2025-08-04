@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { AnimatedBackground } from './components/AnimatedBackground';
-import { AuthForm } from './components/AuthForm';
-import { UserGallery } from './components/UserGallery';
-import { UserMusicPlayer } from './components/UserMusicPlayer';
-import { Toaster } from './components/ui/sonner';
-import { supabase } from './utils/supabase/client';
-import { projectId } from './utils/supabase/info';
+import { AnimatedBackground } from './components/AnimatedBackground.tsx';
+import { AuthForm } from './components/AuthForm.tsx';
+import { UserGallery } from './components/UserGallery.tsx';
+import { UserMusicPlayer } from './components/UserMusicPlayer.tsx';
+import { Toaster } from './components/ui/sonner.tsx';
+import { supabase } from './utils/supabase/client.tsx';
+import { projectId } from './utils/supabase/info.tsx';
 
 interface UserProfile {
   id: string;
